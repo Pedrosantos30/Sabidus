@@ -7,9 +7,9 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "node src/app.js",
+    "start": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "npm install --no-optional"
+    "install": "npm install --production"
   },
   "keywords": [],
   "author": "",
